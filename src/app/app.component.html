@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="topnav" id="myTopnav">
   <a routerLink="/accueil" class="active">ACCUIEL</a>
   <a routerLink="/tourisme">REGION</a>
@@ -8,4 +8,41 @@
     <i class="fa fa-bars"></i>
   </a>
 </div>
+<router-outlet></router-outlet> -->
+
+<!-- <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="img_avatar1.png" alt="Logo" style="width:40px;" class="rounded-pill">
+    </a>
+    <a class="navbar-brand" href="#">Accueil</a>
+    <a class="navbar-brand" href="#">Accueil</a>
+    <a class="navbar-brand" href="#">Accueil</a>
+  </div>
+</nav> -->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/profil"><i class="bi bi-person-fill"></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/accueil">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/region">Regions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Rechercher">
+        <button class="btn btn-primary" type="button">Aller</button>
+      </form>
+    </div>
+  </div>
+</nav>
 <router-outlet></router-outlet>

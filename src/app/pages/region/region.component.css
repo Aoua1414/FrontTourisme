@@ -1,0 +1,25 @@
+.container{
+    position: relative;
+    top: 100px;
+    left: 0;
+}
+
+.img-card{
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+.img-card img{
+    position: absolute;
+    border: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bi{
+    color: black;
+}
+
+h2{
+    text-align: center;
+}

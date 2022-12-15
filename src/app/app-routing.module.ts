@@ -4,6 +4,10 @@ import { AccueilComponent } from './pages/accueil/accueil.component';
 import { RegionComponent } from './pages/region/region.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { DetailRegionComponent } from './pages/detail-region/detail-region.component';
+import { ProfilComponent } from './pages/profil/profil.component';
+import { ListeRegionComponent } from './pages/liste-region/liste-region.component';
+import { PopComponent } from './pages/pop/pop.component';
+import { AjoutComponent } from './pages/ajout/ajout.component';
 
 const routes: Routes = [
   {
@@ -27,6 +31,24 @@ const routes: Routes = [
     path:"detail",
     component:DetailRegionComponent
   },
+  {
+    path:"profil",
+    component:ProfilComponent
+  },
+  {
+    path:"liste",
+    component:ListeRegionComponent
+  },
+  {
+    path:"pop",
+    component:PopComponent
+  },
+  {
+    path:"ajout",
+    component:AjoutComponent
+  },
+  
+  
 
 ];
 

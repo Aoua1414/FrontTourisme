@@ -60,3 +60,12 @@
   .coloNavbar{
     background: #7A3F14;
   }
+  .bti{
+    background-color: #fefcfb;
+    color: #7A3F14;
+}
+.bti:hover{
+    background-color: #7A3F14;
+    color: #faf9f8;
+    border: 3px solid #f5f0ec;
+}

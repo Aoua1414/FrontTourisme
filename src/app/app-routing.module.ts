@@ -8,6 +8,8 @@ import { ProfilComponent } from './pages/profil/profil.component';
 import { ListeRegionComponent } from './pages/liste-region/liste-region.component';
 import { PopComponent } from './pages/pop/pop.component';
 import { AjoutComponent } from './pages/ajout/ajout.component';
+import { LoginComponent } from './pages/login/login.component';
+import { InscriptionComponent } from './pages/inscription/inscription.component';
 
 const routes: Routes = [
   {
@@ -46,6 +48,14 @@ const routes: Routes = [
   {
     path:"ajout",
     component:AjoutComponent
+  },
+  {
+    path:"login",
+    component:LoginComponent
+  },
+  {
+    path:"inscription",
+    component:InscriptionComponent
   },
   
   

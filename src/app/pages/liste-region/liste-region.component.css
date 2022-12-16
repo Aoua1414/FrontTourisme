@@ -1,3 +1,70 @@
 h3{
     text-align: center;
 }
+/* .table{
+    width: auto;
+} */
+/* .container{
+    position: relative;
+    top: 100px;
+    left: 0;
+} */
+
+@media screen and (max-width: 450px) {
+    .hideColonne{
+      display: none;
+    }
+    th{
+      font-size: medium;
+    }
+    td{
+      font-size: small;
+    }
+  
+    .labelContainer{
+      font-size: 15px;
+    }
+  
+    .InputSearch > input{
+      border: 0;
+      font-size: 10px;
+      font-family: cursive;
+    }
+  
+  }
+  @media screen and (max-width: 900px) {
+    .form-select{
+      font-size: medium;
+    }
+    .buttonColor{
+      font-size: medium;
+      text-align: center;
+    }
+    .hideColonneOder{
+      display: none;
+    }
+    th{
+      font-size: medium;
+  
+    }
+    td{
+      font-size: small;
+    }
+  table{
+    margin-top: 2%;
+    background-color: white;
+  }
+  
+  td{
+    font-family: myfon2;
+  }
+  th{
+    font-family: myfon2;
+    color: #ffff !important;
+    font-weight: 600;
+  }
+  thead{
+    background-color: #FF7900;
+  }
+  }
+ 

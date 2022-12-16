@@ -11,6 +11,8 @@ import { ProfilComponent } from './pages/profil/profil.component';
 import { ListeRegionComponent } from './pages/liste-region/liste-region.component';
 import { PopComponent } from './pages/pop/pop.component';
 import { AjoutComponent } from './pages/ajout/ajout.component';
+import { LoginComponent } from './pages/login/login.component';
+import { InscriptionComponent } from './pages/inscription/inscription.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { AjoutComponent } from './pages/ajout/ajout.component';
     ProfilComponent,
     ListeRegionComponent,
     PopComponent,
-    AjoutComponent
+    AjoutComponent,
+    LoginComponent,
+    InscriptionComponent
   ],
   imports: [
     BrowserModule,

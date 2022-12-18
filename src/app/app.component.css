@@ -34,7 +34,7 @@
   .topnav .icon {
     display: none;
   }
-
+  
 
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
@@ -68,4 +68,14 @@
     background-color: #7A3F14;
     color: #faf9f8;
     border: 3px solid #f5f0ec;
+}
+.foot{
+  background-color: #7A3F14;
+  color: white;
+  font-weight: bold;
+  margin-top: 55px;
+}
+.tete{
+  color: white;
+  font-weight: bold;
 }
